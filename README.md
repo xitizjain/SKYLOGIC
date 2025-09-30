@@ -1,10 +1,14 @@
 # SKYLOGIC
 This repository contains the implementation for Project SkyLogic , which integrates a frozen vision encoder with a frozen GPT-OSS LLM. By training only a lightweight projection layer, the system efficiently aligns visual features from ISRO satellite data with text embeddings to produce conversational reports.
-# SkyLogic: Vision-Enhanced GPT for ISRO EO Data Analysis
 
-**SkyLogic** is a project for the Smart India Hackathon 2025 (Problem Statement ID: 25170) that enhances OpenAI's GPT-OSS with multimodal vision capabilities specifically for ISRO Earth Observation (EO) data.
+# :star2: About the Project
 
-The core of our solution is a **lightweight projection layer** that aligns outputs from a vision encoder with the text embedding space of a frozen GPT-OSS model.This approach significantly reduces training complexity and computational costs while preserving the powerful text reasoning capabilities of the large language model (LLM).
+<b>The Problem:</b>
+<p>Analyzing Earth Observation (EO) satellite data from agencies like ISRO is crucial for monitoring environmental changes, urban planning, and resource management. However, this data is often complex and requires specialized expertise to interpret, creating a significant accessibility gap for policymakers, researchers, and the general public. While large language models (LLMs) excel at generating human-readable insights, they lack native vision capabilities to process this geospatial imagery directly. This project addresses the challenge of enhancing a text-only, open-source Generative Pre-trained Transformer (GPT-OSS) with multimodal vision capabilities.</p>
+
+<b>Our Solution:</b>
+<p>
+The core of our solution is a lightweight projection layer that aligns outputs from a vision encoder with the text embedding space of a frozen GPT-OSS model.This approach significantly reduces training complexity and computational costs while preserving the powerful text reasoning capabilities of the large language model (LLM).</p>
 
 
 ## ✨ Key Features
