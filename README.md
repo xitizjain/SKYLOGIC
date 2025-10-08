@@ -1,5 +1,5 @@
 # SKYLOGIC
-This repository contains the implementation for Project SkyLogic , which integrates a frozen vision encoder(ViT) with a frozen GPT-OSS LLM. By training only a lightweight projection layer, the system efficiently aligns visual features from ISRO satellite data with text embeddings to produce conversational reports.
+This repository contains the implementation for Project SkyLogic , which integrates a frozen vision encoder(ViT) with a frozen GPT-OSS LLM. By training only a lightweight projection layer, the system efficiently aligns, lowering the computation cost with visual features from ISRO satellite data with text embeddings to produce conversational reports.
 
 # :star2: About the Project
 
